@@ -1,0 +1,6 @@
+Step 1 : Go to workbench -> SOQL query -> Profile -> Select All Permission -> Execute Query
+
+Step 2: Copy the entite table from workbench (Ctrl+C)
+
+Step 3: Paste as transform option in Excel Sheet
+
