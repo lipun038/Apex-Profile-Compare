@@ -1,0 +1,1 @@
+=IF(B2="PermissionsRead","Read", IF(B2="PermissionsCreate","Create", IF(B2="PermissionsEdit","Edit", IF(B2="PermissionsDelete","Delete", IF(B2="PermissionsViewAllRecords","View All", IF(B2="PermissionsModifyAllRecords","Modify All","" ) ) ) ) ) )
