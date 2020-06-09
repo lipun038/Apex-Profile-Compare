@@ -1,6 +1,6 @@
 Step 1 : In developer console execute query using tooling API
 
-SELECT Layout.TableEnumOrId,Layout.Name, RecordType.Name FROM ProfileLayout WHERE Profile.Name = 'Sales Engineer - US' AND Layout.TableEnumOrId IN ('Contact','Case','Opportunity') AND RecordTypeId != Null
+SELECT Layout.TableEnumOrId,Layout.Name, RecordType.Name FROM ProfileLayout WHERE Profile.Name = 'Sales Engineer - US' AND Layout.TableEnumOrId IN ('Account','Contact','Case','Opportunity') AND RecordTypeId != Null
 
 Step 2: From Developer console inspect and copy the table tag and generate the table to https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic
 
